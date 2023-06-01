@@ -10,6 +10,8 @@ function processTransactions(transactions) {
     transactionsArray[t] = (transactionsArray[t] || 0) + 1;
   }
 
+  console.log(transactionsArray);
+
   //break up array into array pairs within the array
   const transactionArrayPairs = Object.entries(transactionsArray);
 
